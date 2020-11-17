@@ -1,0 +1,69 @@
+[debug] Packaging C:\Users\Dennis\Documents\Universitet\Programmering\workspace (1)\workspace\w10_snake\target\scala-2.13\w10_snake_2.13-0.1.0-SNAPSHOT.jar ...
+[debug] Input file mappings:
+[debug] 	snake
+[debug] 	  C:\Users\Dennis\Documents\Universitet\Programmering\workspace (1)\workspace\w10_snake\target\scala-2.13\classes\snake
+[debug] 	snake\CanMove.class
+[debug] 	  C:\Users\Dennis\Documents\Universitet\Programmering\workspace (1)\workspace\w10_snake\target\scala-2.13\classes\snake\CanMove.class
+[debug] 	snake\CanTeleport.class
+[debug] 	  C:\Users\Dennis\Documents\Universitet\Programmering\workspace (1)\workspace\w10_snake\target\scala-2.13\classes\snake\CanTeleport.class
+[debug] 	snake\Colors$.class
+[debug] 	  C:\Users\Dennis\Documents\Universitet\Programmering\workspace (1)\workspace\w10_snake\target\scala-2.13\classes\snake\Colors$.class
+[debug] 	snake\Colors.class
+[debug] 	  C:\Users\Dennis\Documents\Universitet\Programmering\workspace (1)\workspace\w10_snake\target\scala-2.13\classes\snake\Colors.class
+[debug] 	snake\Dim$.class
+[debug] 	  C:\Users\Dennis\Documents\Universitet\Programmering\workspace (1)\workspace\w10_snake\target\scala-2.13\classes\snake\Dim$.class
+[debug] 	snake\Dim.class
+[debug] 	  C:\Users\Dennis\Documents\Universitet\Programmering\workspace (1)\workspace\w10_snake\target\scala-2.13\classes\snake\Dim.class
+[debug] 	snake\Dir.class
+[debug] 	  C:\Users\Dennis\Documents\Universitet\Programmering\workspace (1)\workspace\w10_snake\target\scala-2.13\classes\snake\Dir.class
+[debug] 	snake\East$.class
+[debug] 	  C:\Users\Dennis\Documents\Universitet\Programmering\workspace (1)\workspace\w10_snake\target\scala-2.13\classes\snake\East$.class
+[debug] 	snake\East.class
+[debug] 	  C:\Users\Dennis\Documents\Universitet\Programmering\workspace (1)\workspace\w10_snake\target\scala-2.13\classes\snake\East.class
+[debug] 	snake\Entity.class
+[debug] 	  C:\Users\Dennis\Documents\Universitet\Programmering\workspace (1)\workspace\w10_snake\target\scala-2.13\classes\snake\Entity.class
+[debug] 	snake\Main$.class
+[debug] 	  C:\Users\Dennis\Documents\Universitet\Programmering\workspace (1)\workspace\w10_snake\target\scala-2.13\classes\snake\Main$.class
+[debug] 	snake\Main.class
+[debug] 	  C:\Users\Dennis\Documents\Universitet\Programmering\workspace (1)\workspace\w10_snake\target\scala-2.13\classes\snake\Main.class
+[debug] 	snake\North$.class
+[debug] 	  C:\Users\Dennis\Documents\Universitet\Programmering\workspace (1)\workspace\w10_snake\target\scala-2.13\classes\snake\North$.class
+[debug] 	snake\North.class
+[debug] 	  C:\Users\Dennis\Documents\Universitet\Programmering\workspace (1)\workspace\w10_snake\target\scala-2.13\classes\snake\North.class
+[debug] 	snake\OnePlayerGame.class
+[debug] 	  C:\Users\Dennis\Documents\Universitet\Programmering\workspace (1)\workspace\w10_snake\target\scala-2.13\classes\snake\OnePlayerGame.class
+[debug] 	snake\Pair.class
+[debug] 	  C:\Users\Dennis\Documents\Universitet\Programmering\workspace (1)\workspace\w10_snake\target\scala-2.13\classes\snake\Pair.class
+[debug] 	snake\Player$.class
+[debug] 	  C:\Users\Dennis\Documents\Universitet\Programmering\workspace (1)\workspace\w10_snake\target\scala-2.13\classes\snake\Player$.class
+[debug] 	snake\Player.class
+[debug] 	  C:\Users\Dennis\Documents\Universitet\Programmering\workspace (1)\workspace\w10_snake\target\scala-2.13\classes\snake\Player.class
+[debug] 	snake\Pos$.class
+[debug] 	  C:\Users\Dennis\Documents\Universitet\Programmering\workspace (1)\workspace\w10_snake\target\scala-2.13\classes\snake\Pos$.class
+[debug] 	snake\Pos.class
+[debug] 	  C:\Users\Dennis\Documents\Universitet\Programmering\workspace (1)\workspace\w10_snake\target\scala-2.13\classes\snake\Pos.class
+[debug] 	snake\Snake.class
+[debug] 	  C:\Users\Dennis\Documents\Universitet\Programmering\workspace (1)\workspace\w10_snake\target\scala-2.13\classes\snake\Snake.class
+[debug] 	snake\SnakeGame$GameOver$.class
+[debug] 	  C:\Users\Dennis\Documents\Universitet\Programmering\workspace (1)\workspace\w10_snake\target\scala-2.13\classes\snake\SnakeGame$GameOver$.class
+[debug] 	snake\SnakeGame$Playing$.class
+[debug] 	  C:\Users\Dennis\Documents\Universitet\Programmering\workspace (1)\workspace\w10_snake\target\scala-2.13\classes\snake\SnakeGame$Playing$.class
+[debug] 	snake\SnakeGame$Quitting$.class
+[debug] 	  C:\Users\Dennis\Documents\Universitet\Programmering\workspace (1)\workspace\w10_snake\target\scala-2.13\classes\snake\SnakeGame$Quitting$.class
+[debug] 	snake\SnakeGame$Starting$.class
+[debug] 	  C:\Users\Dennis\Documents\Universitet\Programmering\workspace (1)\workspace\w10_snake\target\scala-2.13\classes\snake\SnakeGame$Starting$.class
+[debug] 	snake\SnakeGame$State.class
+[debug] 	  C:\Users\Dennis\Documents\Universitet\Programmering\workspace (1)\workspace\w10_snake\target\scala-2.13\classes\snake\SnakeGame$State.class
+[debug] 	snake\SnakeGame.class
+[debug] 	  C:\Users\Dennis\Documents\Universitet\Programmering\workspace (1)\workspace\w10_snake\target\scala-2.13\classes\snake\SnakeGame.class
+[debug] 	snake\South$.class
+[debug] 	  C:\Users\Dennis\Documents\Universitet\Programmering\workspace (1)\workspace\w10_snake\target\scala-2.13\classes\snake\South$.class
+[debug] 	snake\South.class
+[debug] 	  C:\Users\Dennis\Documents\Universitet\Programmering\workspace (1)\workspace\w10_snake\target\scala-2.13\classes\snake\South.class
+[debug] 	snake\TwoPlayerGame.class
+[debug] 	  C:\Users\Dennis\Documents\Universitet\Programmering\workspace (1)\workspace\w10_snake\target\scala-2.13\classes\snake\TwoPlayerGame.class
+[debug] 	snake\West$.class
+[debug] 	  C:\Users\Dennis\Documents\Universitet\Programmering\workspace (1)\workspace\w10_snake\target\scala-2.13\classes\snake\West$.class
+[debug] 	snake\West.class
+[debug] 	  C:\Users\Dennis\Documents\Universitet\Programmering\workspace (1)\workspace\w10_snake\target\scala-2.13\classes\snake\West.class
+[debug] Done packaging.
