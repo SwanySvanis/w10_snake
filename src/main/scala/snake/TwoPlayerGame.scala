@@ -1,6 +1,6 @@
 package snake
 
-class TwoPlayerGame {  // ska ärva SnakeGame
+class TwoPlayerGame extends {  // ska ärva SnakeGame
 
   // ormar och ev. äpple, bananer etc
 

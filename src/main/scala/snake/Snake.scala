@@ -20,7 +20,7 @@ class Snake (
   val startGrowingAfter = 400
   var nbrOfApples = 0
 
-  def reset(): Unit = ??? // återställ starttillstånd, ge rätt svanslängd, tillagt liten kommentar här
+  def reset(): Unit = ??? // återställ starttillstånd, ge rätt svanslängd, override val body ??
 
   def grow(): Unit = ???  // väx i rätt riktning med extra svansposition
 

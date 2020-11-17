@@ -1,5 +1,6 @@
 package snake
 import introprog.BlockGame
+import introprog.examples.TestBlockGame
 
 abstract class SnakeGame(title: String) extends BlockGame(
   title, dim = (50, 30), blockSize = 15, background = Colors.Background,
@@ -17,17 +18,24 @@ abstract class SnakeGame(title: String) extends BlockGame(
 
   var state: State = Starting
 
-  def enterStartingState(): Unit = {clearMessageArea();
-    drawTextInMessageArea(msg = "Tryck space för start", 200, 100, Colors.Background, blockSize)
-    } // rensa, meddela "tryck space för start"
+/** All methods taking part in trait State utilizes inherited methods from BlockGame, as imported in file.    */
 
-  def enterPlayingState(): Unit = {
-    entities.foreach(_.erase);
+  def enterStartingState(): Unit = { // rensa, meddela "tryck space för start"
+    clearWindow()
+    drawCenteredText("Press space to start", pixelWindow.foreground, blockSize)
+    }
+
+  def enterPlayingState(): Unit = { // rensa, rita alla entiteter
+    clearWindow()
+    entities.foreach(_.erase)
     entities.foreach(_.draw)
-    state = Playing }// rensa, rita alla entiteter
+    state = Playing
+  }
 
-  def enterGameOverState(): Unit = {pixelWindow.drawText("GAME OVER", 200, 100, size = 16)
-    state = GameOver} // meddela "game over"
+  def enterGameOverState(): Unit = {
+    drawCenteredText("GAME OVER", pixelWindow.foreground, blockSize)
+    state = GameOver
+  } // meddela "game over"
 
   def enterQuittingState(): Unit = {
     println("Goodbye!")
