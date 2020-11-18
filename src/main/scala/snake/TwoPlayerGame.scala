@@ -1,8 +1,8 @@
 package snake
 
-class TwoPlayerGame extends {  // ska ärva SnakeGame
+class TwoPlayerGame extends SnakeGame("TwoPlayerGame") {  // ska ärva SnakeGame
 
-  // ormar och ev. äpple, bananer etc
+  // Snakes, apples and maybe bananas aught to be applied here.
 
   def play(playerNames: String*): Unit = ???  // ska överskugga play i SnakeGame
 }
