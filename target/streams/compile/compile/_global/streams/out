@@ -1,2 +1,33 @@
 [debug] Acquiring lock on file C:\Users\Dennis\Documents\Universitet\Programmering\workspace (1)\workspace\w10_snake\project\target\.sbt-compilation-infos\w10_snake-compile\.sbt-idea-lock ...
+[warn] C:\Users\Dennis\Documents\Universitet\Programmering\workspace (1)\workspace\w10_snake\src\main\scala\snake\SnakeGame.scala:31:24: Auto-application to `()` is deprecated. Supply the empty argument list `()` explicitly to invoke method erase,
+[warn] or remove the empty argument list from its definition (Java-defined methods are exempt).
+[warn] In Scala 3, an unapplied method like this will be eta-expanded into a function.
+[warn]     entities.foreach(_.erase)
+[warn]                        ^
+[warn] C:\Users\Dennis\Documents\Universitet\Programmering\workspace (1)\workspace\w10_snake\src\main\scala\snake\SnakeGame.scala:32:24: Auto-application to `()` is deprecated. Supply the empty argument list `()` explicitly to invoke method draw,
+[warn] or remove the empty argument list from its definition (Java-defined methods are exempt).
+[warn] In Scala 3, an unapplied method like this will be eta-expanded into a function.
+[warn]     entities.foreach(_.draw)
+[warn]                        ^
+[warn] C:\Users\Dennis\Documents\Universitet\Programmering\workspace (1)\workspace\w10_snake\src\main\scala\snake\SnakeGame.scala:77:26: Auto-application to `()` is deprecated. Supply the empty argument list `()` explicitly to invoke method erase,
+[warn] or remove the empty argument list from its definition (Java-defined methods are exempt).
+[warn] In Scala 3, an unapplied method like this will be eta-expanded into a function.
+[warn]       entities.foreach(_.erase)
+[warn]                          ^
+[warn] C:\Users\Dennis\Documents\Universitet\Programmering\workspace (1)\workspace\w10_snake\src\main\scala\snake\SnakeGame.scala:78:26: Auto-application to `()` is deprecated. Supply the empty argument list `()` explicitly to invoke method update,
+[warn] or remove the empty argument list from its definition (Java-defined methods are exempt).
+[warn] In Scala 3, an unapplied method like this will be eta-expanded into a function.
+[warn]       entities.foreach(_.update)
+[warn]                          ^
+[warn] C:\Users\Dennis\Documents\Universitet\Programmering\workspace (1)\workspace\w10_snake\src\main\scala\snake\SnakeGame.scala:79:26: Auto-application to `()` is deprecated. Supply the empty argument list `()` explicitly to invoke method draw,
+[warn] or remove the empty argument list from its definition (Java-defined methods are exempt).
+[warn] In Scala 3, an unapplied method like this will be eta-expanded into a function.
+[warn]       entities.foreach(_.draw)
+[warn]                          ^
+[warn] C:\Users\Dennis\Documents\Universitet\Programmering\workspace (1)\workspace\w10_snake\src\main\scala\snake\SnakeGame.scala:80:11: Auto-application to `()` is deprecated. Supply the empty argument list `()` explicitly to invoke method isGameOver,
+[warn] or remove the empty argument list from its definition (Java-defined methods are exempt).
+[warn] In Scala 3, an unapplied method like this will be eta-expanded into a function.
+[warn]       if (isGameOver) enterGameOverState()
+[warn]           ^
+[warn] 6 warnings found
 [debug] Releasing lock on file C:\Users\Dennis\Documents\Universitet\Programmering\workspace (1)\workspace\w10_snake\project\target\.sbt-compilation-infos\w10_snake-compile\.sbt-idea-lock.

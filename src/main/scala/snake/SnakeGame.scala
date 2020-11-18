@@ -1,6 +1,7 @@
 package snake
 import introprog.BlockGame
 import introprog.examples.TestBlockGame
+import javafx.util.Pair
 
 abstract class SnakeGame(title: String) extends BlockGame(
   title, dim = (50, 30), blockSize = 15, background = Colors.Background,
@@ -43,11 +44,16 @@ abstract class SnakeGame(title: String) extends BlockGame(
     state = Quitting
   }
 
-  def randomFreePos(): Pos = {      ???
-    // import scala.util.Random
-    // val rnd = new Random
-
-  } // dra slump-pos tills ledig plats, används av frukt
+  def randomFreePos(): Pos = { // Pulls random Pos until some free pos, used by fruit.
+    var isNotFree: Boolean = true
+    var rndPos = Pos.random(Dim(dim))
+    while (isNotFree) {
+      if (pixelWindow.getPixel(rndPos.dim.x * blockSize, rndPos.dim.y * blockSize) == Colors.Background) {
+        isNotFree = false
+      } else rndPos = Pos.random(Dim(dim))
+    }
+    rndPos
+  }
 
   override def onKeyDown(key: String): Unit = {
     println(s"""key "$key" pressed""")
@@ -63,7 +69,7 @@ abstract class SnakeGame(title: String) extends BlockGame(
 
   override def onClose(): Unit = enterQuittingState()
 
-  def isGameOver(): Boolean  // abstrakt metod, implementeras i subklass
+  def isGameOver(): Boolean  //Abstract method, implements in subclass
 
   override def gameLoopAction(): Unit = {
     if (state == Playing) {
@@ -76,10 +82,10 @@ abstract class SnakeGame(title: String) extends BlockGame(
 
 
   def startGameLoop(): Unit = {
-    pixelWindow.show()  // möjliggör omstart även om fönstret stängts...
+    pixelWindow.show()  // Enables restart in spite of closed window...
     enterStartingState()
     gameLoop(stopWhen = state == Quitting)
   }
 
-  def play(playerNames: String*): Unit // abstrakt, implementeras i subklass
+  def play(playerNames: String*): Unit // Abstract, implements in subclass
 }
