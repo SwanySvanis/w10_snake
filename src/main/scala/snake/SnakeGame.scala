@@ -50,7 +50,6 @@ abstract class SnakeGame(title: String) extends BlockGame(
     while (isNotFree) {
       if (pixelWindow.getPixel(rndPos.dim.x * blockSize, rndPos.dim.y * blockSize) == Colors.Background) {
         isNotFree = false
-        rndPos
       } else rndPos = Pos.random(Dim(dim))
     }
     rndPos
